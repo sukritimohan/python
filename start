@@ -1,0 +1,9 @@
+#PROGRAM TO INPUT RADIUS AND FIND AREA OF CIRCLE
+rad=int(input("Enter the radius of circle:"))
+area=3.14*(rad**2)
+print("The area of circle with radius %d is: %f"%(rad,area))
+
+#PROGRAM TO INPUT FILENAME AND GET OUTPUT AS EXTENSION OF FILENAME
+file=input("Enter the file name: ")
+f_ext=file.split(".")
+print(f_ext[-1])

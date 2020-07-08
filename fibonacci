@@ -1,0 +1,10 @@
+i=0
+j=1
+n=int(input("Enter no of iterations"))
+print(i,",",j,",",end='')
+while n>0:
+    s=i+j
+    print(s,",",end='')
+    i=j
+    j=s
+    n=n-1

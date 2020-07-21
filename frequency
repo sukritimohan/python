@@ -1,0 +1,12 @@
+import operator
+word=input("Enter the word: ")
+dict1={}
+for i in word:
+    if i in dict1:
+        dict1[i]=dict1[i]+1
+    else:
+        dict1[i]=1
+print(dict1)
+print(dict(sorted(dict1.items(), key=operator.itemgetter(1),reverse=True)))
+
+             

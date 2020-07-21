@@ -1,0 +1,13 @@
+def list():
+    l1=[]
+    l2=[]
+    n=int(input("Enter number of elements: "))
+    for _ in range(0,n):
+        ele=input()
+        l1.append(ele)
+    print(l1)
+    for x in l1:
+        if x not in l2:
+            l2.append(x)
+    print(l2)
+list()
